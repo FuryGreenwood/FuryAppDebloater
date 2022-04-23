@@ -43,7 +43,7 @@ namespace FuryAppDebloater
 
         private void btnSDK_Click(object sender, EventArgs e)
         {
-            Process.Start("https://developer.android.com/studio#downloads");
+            Process.Start("https://developer.android.com/studio/releases/platform-tools");
         }
 
         public void LoadLanguage()
