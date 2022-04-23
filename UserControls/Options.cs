@@ -45,7 +45,7 @@ namespace FuryAppDebloater
 
         private void updateBtn_Click(object sender, EventArgs e)
         {
-            Process.Start("https://github.com/FuryGreenwood324/FuryAppDebloater");
+            Process.Start("https://github.com/FuryGreenwood/FuryAppDebloater/releases");
         }
         private void ytBtn_Click(object sender, EventArgs e)
         {
@@ -53,11 +53,15 @@ namespace FuryAppDebloater
         }
         private void gitBtn_Click(object sender, EventArgs e)
         {
-            Process.Start("https://github.com/FuryGreenwood324");
+            Process.Start("https://github.com/FuryGreenwood");
         }
         private void paypalBtn_Click(object sender, EventArgs e)
         {
             Process.Start("https://paypal.me/FuryGreenwood?");
+        }
+        private void discordBtn_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://discord.gg/XUbuJYbUSG");
         }
 
         public void LoadLanguage()

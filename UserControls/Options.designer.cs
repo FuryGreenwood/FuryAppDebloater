@@ -28,11 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.boxLogo = new System.Windows.Forms.PictureBox();
-            this.lblRights = new System.Windows.Forms.Label();
             this.lblOpt = new System.Windows.Forms.Label();
-            this.lblAbout = new System.Windows.Forms.Label();
-            this.lblCopy = new System.Windows.Forms.Label();
             this.paypalBtn = new FontAwesome.Sharp.IconButton();
             this.gitBtn = new FontAwesome.Sharp.IconButton();
             this.ytBtn = new FontAwesome.Sharp.IconButton();
@@ -41,34 +37,16 @@
             this.updateLbl = new System.Windows.Forms.Label();
             this.lblLang = new System.Windows.Forms.Label();
             this.langBox = new System.Windows.Forms.ComboBox();
-            this.thanksLbl = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            ((System.ComponentModel.ISupportInitialize)(this.boxLogo)).BeginInit();
+            this.lblAbout = new System.Windows.Forms.Label();
+            this.boxLogo = new System.Windows.Forms.PictureBox();
+            this.lblCopy = new System.Windows.Forms.Label();
+            this.lblRights = new System.Windows.Forms.Label();
+            this.thanksLbl = new System.Windows.Forms.Label();
+            this.discordBtn = new FontAwesome.Sharp.IconButton();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.boxLogo)).BeginInit();
             this.SuspendLayout();
-            // 
-            // boxLogo
-            // 
-            this.boxLogo.Image = global::FuryAppDebloater.Properties.Resources.fury;
-            this.boxLogo.Location = new System.Drawing.Point(25, 51);
-            this.boxLogo.Name = "boxLogo";
-            this.boxLogo.Size = new System.Drawing.Size(335, 270);
-            this.boxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.boxLogo.TabIndex = 27;
-            this.boxLogo.TabStop = false;
-            // 
-            // lblRights
-            // 
-            this.lblRights.AutoSize = true;
-            this.lblRights.Font = new System.Drawing.Font("Aldo the Apache", 15.75F);
-            this.lblRights.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(230)))), ((int)(((byte)(158)))));
-            this.lblRights.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblRights.Location = new System.Drawing.Point(7, 324);
-            this.lblRights.Name = "lblRights";
-            this.lblRights.Size = new System.Drawing.Size(205, 27);
-            this.lblRights.TabIndex = 23;
-            this.lblRights.Text = "FURY GREENWOOD - 2022";
             // 
             // lblOpt
             // 
@@ -80,31 +58,6 @@
             this.lblOpt.Size = new System.Drawing.Size(91, 25);
             this.lblOpt.TabIndex = 22;
             this.lblOpt.Text = "Opciones";
-            // 
-            // lblAbout
-            // 
-            this.lblAbout.AutoSize = true;
-            this.lblAbout.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
-            this.lblAbout.ForeColor = System.Drawing.Color.White;
-            this.lblAbout.Location = new System.Drawing.Point(7, 23);
-            this.lblAbout.Name = "lblAbout";
-            this.lblAbout.Size = new System.Drawing.Size(96, 25);
-            this.lblAbout.TabIndex = 21;
-            this.lblAbout.Text = "Acerca de";
-            // 
-            // lblCopy
-            // 
-            this.lblCopy.AutoSize = true;
-            this.lblCopy.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCopy.ForeColor = System.Drawing.Color.White;
-            this.lblCopy.Location = new System.Drawing.Point(8, 351);
-            this.lblCopy.Name = "lblCopy";
-            this.lblCopy.Size = new System.Drawing.Size(369, 84);
-            this.lblCopy.TabIndex = 20;
-            this.lblCopy.Text = "\"The Android robot is reproduced or modified from \r\nwork created and shared by Go" +
-    "ogle and used \r\naccording to terms described in the Creative \r\nCommons 3.0 Attri" +
-    "bution License.\"";
-            this.lblCopy.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // paypalBtn
             // 
@@ -118,10 +71,10 @@
             this.paypalBtn.IconColor = System.Drawing.Color.White;
             this.paypalBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.paypalBtn.IconSize = 40;
-            this.paypalBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.paypalBtn.Location = new System.Drawing.Point(17, 455);
+            this.paypalBtn.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.paypalBtn.Location = new System.Drawing.Point(17, 420);
             this.paypalBtn.Name = "paypalBtn";
-            this.paypalBtn.Size = new System.Drawing.Size(234, 42);
+            this.paypalBtn.Size = new System.Drawing.Size(234, 41);
             this.paypalBtn.TabIndex = 19;
             this.paypalBtn.Text = "Donate";
             this.paypalBtn.UseVisualStyleBackColor = false;
@@ -139,10 +92,10 @@
             this.gitBtn.IconColor = System.Drawing.Color.White;
             this.gitBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.gitBtn.IconSize = 40;
-            this.gitBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.gitBtn.Location = new System.Drawing.Point(17, 407);
+            this.gitBtn.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.gitBtn.Location = new System.Drawing.Point(17, 372);
             this.gitBtn.Name = "gitBtn";
-            this.gitBtn.Size = new System.Drawing.Size(234, 42);
+            this.gitBtn.Size = new System.Drawing.Size(234, 41);
             this.gitBtn.TabIndex = 18;
             this.gitBtn.Text = "GitHub";
             this.gitBtn.UseVisualStyleBackColor = false;
@@ -160,10 +113,10 @@
             this.ytBtn.IconColor = System.Drawing.Color.White;
             this.ytBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.ytBtn.IconSize = 40;
-            this.ytBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ytBtn.Location = new System.Drawing.Point(17, 359);
+            this.ytBtn.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.ytBtn.Location = new System.Drawing.Point(17, 324);
             this.ytBtn.Name = "ytBtn";
-            this.ytBtn.Size = new System.Drawing.Size(234, 42);
+            this.ytBtn.Size = new System.Drawing.Size(234, 41);
             this.ytBtn.TabIndex = 17;
             this.ytBtn.Text = "YouTube";
             this.ytBtn.UseVisualStyleBackColor = false;
@@ -174,7 +127,7 @@
             this.lblHelp.AutoSize = true;
             this.lblHelp.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
             this.lblHelp.ForeColor = System.Drawing.Color.White;
-            this.lblHelp.Location = new System.Drawing.Point(13, 324);
+            this.lblHelp.Location = new System.Drawing.Point(13, 289);
             this.lblHelp.Name = "lblHelp";
             this.lblHelp.Size = new System.Drawing.Size(165, 25);
             this.lblHelp.TabIndex = 16;
@@ -236,6 +189,65 @@
             this.langBox.TabIndex = 28;
             this.langBox.SelectedIndexChanged += new System.EventHandler(this.langBox_SelectedIndexChanged);
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.thanksLbl);
+            this.panel1.Controls.Add(this.lblRights);
+            this.panel1.Controls.Add(this.lblCopy);
+            this.panel1.Controls.Add(this.boxLogo);
+            this.panel1.Controls.Add(this.lblAbout);
+            this.panel1.Location = new System.Drawing.Point(332, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(392, 524);
+            this.panel1.TabIndex = 30;
+            // 
+            // lblAbout
+            // 
+            this.lblAbout.AutoSize = true;
+            this.lblAbout.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lblAbout.ForeColor = System.Drawing.Color.White;
+            this.lblAbout.Location = new System.Drawing.Point(7, 23);
+            this.lblAbout.Name = "lblAbout";
+            this.lblAbout.Size = new System.Drawing.Size(96, 25);
+            this.lblAbout.TabIndex = 21;
+            this.lblAbout.Text = "Acerca de";
+            // 
+            // boxLogo
+            // 
+            this.boxLogo.Image = global::FuryAppDebloater.Properties.Resources.fury;
+            this.boxLogo.Location = new System.Drawing.Point(25, 51);
+            this.boxLogo.Name = "boxLogo";
+            this.boxLogo.Size = new System.Drawing.Size(335, 270);
+            this.boxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.boxLogo.TabIndex = 27;
+            this.boxLogo.TabStop = false;
+            // 
+            // lblCopy
+            // 
+            this.lblCopy.AutoSize = true;
+            this.lblCopy.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCopy.ForeColor = System.Drawing.Color.White;
+            this.lblCopy.Location = new System.Drawing.Point(8, 351);
+            this.lblCopy.Name = "lblCopy";
+            this.lblCopy.Size = new System.Drawing.Size(369, 84);
+            this.lblCopy.TabIndex = 20;
+            this.lblCopy.Text = "\"The Android robot is reproduced or modified from \r\nwork created and shared by Go" +
+    "ogle and used \r\naccording to terms described in the Creative \r\nCommons 3.0 Attri" +
+    "bution License.\"";
+            this.lblCopy.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblRights
+            // 
+            this.lblRights.AutoSize = true;
+            this.lblRights.Font = new System.Drawing.Font("Aldo the Apache", 15.75F);
+            this.lblRights.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(230)))), ((int)(((byte)(158)))));
+            this.lblRights.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lblRights.Location = new System.Drawing.Point(7, 324);
+            this.lblRights.Name = "lblRights";
+            this.lblRights.Size = new System.Drawing.Size(205, 27);
+            this.lblRights.TabIndex = 23;
+            this.lblRights.Text = "FURY GREENWOOD - 2022";
+            // 
             // thanksLbl
             // 
             this.thanksLbl.AutoSize = true;
@@ -248,32 +260,33 @@
             this.thanksLbl.Text = "Agradecimientos especiales a: Ricaidito, AbrahamJLR\r\ny Ts-Pytham";
             this.thanksLbl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // panel1
+            // discordBtn
             // 
-            this.panel1.Controls.Add(this.thanksLbl);
-            this.panel1.Controls.Add(this.lblRights);
-            this.panel1.Controls.Add(this.lblCopy);
-            this.panel1.Controls.Add(this.boxLogo);
-            this.panel1.Controls.Add(this.lblAbout);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(332, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(392, 524);
-            this.panel1.TabIndex = 30;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(332, 524);
-            this.flowLayoutPanel1.TabIndex = 31;
+            this.discordBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(93)))), ((int)(((byte)(234)))));
+            this.discordBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.discordBtn.FlatAppearance.BorderSize = 0;
+            this.discordBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.discordBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.discordBtn.ForeColor = System.Drawing.Color.White;
+            this.discordBtn.IconChar = FontAwesome.Sharp.IconChar.Discord;
+            this.discordBtn.IconColor = System.Drawing.Color.White;
+            this.discordBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.discordBtn.IconSize = 40;
+            this.discordBtn.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.discordBtn.Location = new System.Drawing.Point(16, 467);
+            this.discordBtn.Name = "discordBtn";
+            this.discordBtn.Size = new System.Drawing.Size(235, 41);
+            this.discordBtn.TabIndex = 31;
+            this.discordBtn.Text = "Discord";
+            this.discordBtn.UseVisualStyleBackColor = false;
+            this.discordBtn.Click += new System.EventHandler(this.discordBtn_Click);
             // 
             // Options
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.Controls.Add(this.discordBtn);
             this.Controls.Add(this.langBox);
             this.Controls.Add(this.lblOpt);
             this.Controls.Add(this.paypalBtn);
@@ -283,26 +296,20 @@
             this.Controls.Add(this.updateBtn);
             this.Controls.Add(this.updateLbl);
             this.Controls.Add(this.lblLang);
-            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel1);
             this.Name = "Options";
             this.Size = new System.Drawing.Size(724, 524);
             this.Load += new System.EventHandler(this.Options_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.boxLogo)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.boxLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox boxLogo;
-        private System.Windows.Forms.Label lblRights;
         private System.Windows.Forms.Label lblOpt;
-        private System.Windows.Forms.Label lblAbout;
-        private System.Windows.Forms.Label lblCopy;
         private FontAwesome.Sharp.IconButton paypalBtn;
         private FontAwesome.Sharp.IconButton gitBtn;
         private FontAwesome.Sharp.IconButton ytBtn;
@@ -311,8 +318,12 @@
         private System.Windows.Forms.Label updateLbl;
         private System.Windows.Forms.Label lblLang;
         private System.Windows.Forms.ComboBox langBox;
-        private System.Windows.Forms.Label thanksLbl;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Label thanksLbl;
+        private System.Windows.Forms.Label lblRights;
+        private System.Windows.Forms.Label lblCopy;
+        private System.Windows.Forms.PictureBox boxLogo;
+        private System.Windows.Forms.Label lblAbout;
+        private FontAwesome.Sharp.IconButton discordBtn;
     }
 }
