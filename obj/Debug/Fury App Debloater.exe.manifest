@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Fury App Debloater.exe" version="1.1.0.0" publicKeyToken="0000000000000000" language="en" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="Fury App Debloater.exe" version="1.3.9.0" publicKeyToken="0000000000000000" language="en" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="Assets\unis.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -55,36 +55,36 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fury App Debloater.exe" size="2685952">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fury App Debloater.exe" size="7970304">
       <assemblyIdentity name="Fury App Debloater" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2p8TSQSS9ZIA7ihs0soJx2h6zP9+Oudjr58lB3Xp6xo=</dsig:DigestValue>
+        <dsig:DigestValue>aLNPAGzZtXmJPwCPRiZP+x9X79tsNZ13bLLBR6M7rBw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en\Fury App Debloater.resources.dll" size="5120">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en\Fury App Debloater.resources.dll" size="5632">
       <assemblyIdentity name="Fury App Debloater.resources" version="1.0.0.0" language="en" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>phfQNNMpfsytVzJe6N/b1QiP+3cUGvnHymHNqV1lhAI=</dsig:DigestValue>
+        <dsig:DigestValue>P8LNkLvTwIXA4OaVblUvVelPucxlFI+vfhGcRbira2U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="ADB\adb.exe" size="1542656">
+  <file name="ADB\adb.exe" size="5994496">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>o4h5dTlsdLbUvbSdIDCIEWXgm07Ymwx7uvS4IdRNRkM=</dsig:DigestValue>
+      <dsig:DigestValue>cNrvXduwO9Wv6Qt1364D+3N0Cd5T/sZve8cYWH6oLrc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="ADB\AdbWinApi.dll" size="97792">
@@ -105,13 +105,13 @@
       <dsig:DigestValue>JSB8UG0pxOjc62G0vVDoZpuiYBKYikP78mqJCx5g/Jc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="ADB\fastboot.exe" size="812032">
+  <file name="ADB\fastboot.exe" size="1644032">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>jivgDVjXxXksPFcDMYS2FAbXPKLv+lxl8XBkiLnMbN0=</dsig:DigestValue>
+      <dsig:DigestValue>gb4jLoywHZOIi1Z6bO6aWP6trtl7VOm4baKiE+P/oUk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Assets\adv.png" size="43658">

@@ -49,3 +49,59 @@ C:\GitHub Repository\FuryAppDebloater\FuryAppDebloater-GUI\obj\Debug\Fury App De
 C:\GitHub Repository\FuryAppDebloater\FuryAppDebloater-GUI\obj\Debug\FuryAppDebloater.csproj.CopyComplete
 C:\GitHub Repository\FuryAppDebloater\FuryAppDebloater-GUI\obj\Debug\Fury App Debloater.exe
 C:\GitHub Repository\FuryAppDebloater\FuryAppDebloater-GUI\obj\Debug\Fury App Debloater.pdb
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\bin\Debug\Fury App Debloater.exe.config
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\bin\Debug\Fury App Debloater.exe.manifest
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\bin\Debug\Fury App Debloater.application
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\bin\Debug\Fury App Debloater.exe
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\bin\Debug\Fury App Debloater.pdb
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\bin\Debug\es\Fury App Debloater.resources.dll
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\bin\Debug\en\Fury App Debloater.resources.dll
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\FuryAppDebloater.csproj.AssemblyReference.cache
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\FuryAppDebloater.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\FuryAppDebloater.Languages.Lang.resources
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\FuryAppDebloater.MainForm.resources
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\FuryAppDebloater.Properties.Resources.resources
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\FuryAppDebloater.Advanced.resources
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\FuryAppDebloater.Options.resources
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\FuryAppDebloater.Uninstaller.resources
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\FuryAppDebloater.Languages.Lang.es.resources
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\FuryAppDebloater.Languages.Lang.en.resources
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\FuryAppDebloater.csproj.GenerateResource.cache
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\FuryAppDebloater.csproj.CoreCompileInputs.cache
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\es\Fury App Debloater.resources.dll
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\en\Fury App Debloater.resources.dll
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\Fury App Debloater.TrustInfo.xml
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\Fury App Debloater.exe.manifest
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\Fury App Debloater.application
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\FuryAppDebloater.csproj.CopyComplete
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\Fury App Debloater.exe
+C:\Users\Kevin Recalde\Desktop\Nueva carpeta (2)\FuryAppDebloater-GUI\obj\Debug\Fury App Debloater.pdb
+C:\GitHub Repository\FuryAppDebloater\bin\Debug\Fury App Debloater.exe.config
+C:\GitHub Repository\FuryAppDebloater\bin\Debug\Fury App Debloater.exe.manifest
+C:\GitHub Repository\FuryAppDebloater\bin\Debug\Fury App Debloater.application
+C:\GitHub Repository\FuryAppDebloater\bin\Debug\Fury App Debloater.exe
+C:\GitHub Repository\FuryAppDebloater\bin\Debug\Fury App Debloater.pdb
+C:\GitHub Repository\FuryAppDebloater\bin\Debug\es\Fury App Debloater.resources.dll
+C:\GitHub Repository\FuryAppDebloater\bin\Debug\en\Fury App Debloater.resources.dll
+C:\GitHub Repository\FuryAppDebloater\bin\Debug\FontAwesome.Sharp.dll
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\FuryAppDebloater.csproj.AssemblyReference.cache
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\FuryAppDebloater.csproj.SuggestedBindingRedirects.cache
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\FuryAppDebloater.Languages.Lang.resources
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\FuryAppDebloater.MainForm.resources
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\FuryAppDebloater.Properties.Resources.resources
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\FuryAppDebloater.Advanced.resources
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\FuryAppDebloater.Options.resources
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\FuryAppDebloater.Uninstaller.resources
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\FuryAppDebloater.Languages.Lang.es.resources
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\FuryAppDebloater.Languages.Lang.en.resources
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\FuryAppDebloater.csproj.GenerateResource.cache
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\FuryAppDebloater.csproj.CoreCompileInputs.cache
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\es\Fury App Debloater.resources.dll
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\en\Fury App Debloater.resources.dll
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\Fury App Debloater.TrustInfo.xml
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\Fury App Debloater.exe.manifest
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\Fury App Debloater.application
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\FuryAppDebloater.csproj.CopyComplete
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\Fury App Debloater.exe
+C:\GitHub Repository\FuryAppDebloater\obj\Debug\Fury App Debloater.pdb
