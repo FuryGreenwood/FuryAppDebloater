@@ -161,7 +161,7 @@ and Ts-Pytham</value>
 
 A program to uninstall Apps on Android devices
 
-Make sure you have USB debugging enabled, if not enable the Options
+Make sure you have USB debugging turned on, if it isn't, turn on the Options
 developer (this varies depending on your device).
 
 Connect your device to PC via USB
@@ -173,7 +173,7 @@ Once the console with your device appears, press Enter, copy and paste this line
 pm uninstall -k --user 0 'package name'
 
 
-In 'package name' replace with the name of the App package
+In 'package name' replace it with the name of the App package
 if you want to know more about the package name, please install in
 your cell phone the "App Info" application and search for the application to uninstall
 
@@ -187,7 +187,15 @@ If you want to reinstall the app use the command:
 cmd package install-existing 'package name'
 
 
-Be careful when uninstalling system applications that could render the device unusable, use at your own risk.</value>
+If you want to know the list of all the Apps installed on the device
+use the command:
+
+
+pm list packages
+
+
+Be careful when uninstalling system applications that could render the device 
+unusable, use at your own risk.</value>
   </data>
   <data name="updateBtn" xml:space="preserve">
     <value>Check Updates</value>

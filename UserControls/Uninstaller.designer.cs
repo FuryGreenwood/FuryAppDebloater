@@ -48,6 +48,7 @@
             this.txtInfo.Multiline = true;
             this.txtInfo.Name = "txtInfo";
             this.txtInfo.ReadOnly = true;
+            this.txtInfo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtInfo.Size = new System.Drawing.Size(724, 454);
             this.txtInfo.TabIndex = 2;
             this.txtInfo.Text = resources.GetString("txtInfo.Text");

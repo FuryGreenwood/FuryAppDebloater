@@ -176,7 +176,7 @@ namespace FuryAppDebloater.Languages {
         ///
         ///A program to uninstall Apps on Android devices
         ///
-        ///Make sure you have USB debugging enabled, if not enable the Options
+        ///Make sure you have USB debugging turned on, if it isn&apos;t, turn on the Options
         ///developer (this varies depending on your device).
         ///
         ///Connect your device to PC via USB
@@ -188,8 +188,7 @@ namespace FuryAppDebloater.Languages {
         ///pm uninstall -k --user 0 &apos;package name&apos;
         ///
         ///
-        ///In &apos;package name&apos; replace with the name of the App package
-        ///if you w [resto de la cadena truncado]&quot;;.
+        ///In &apos;package name&apos; replace it with the name of the App packa [resto de la cadena truncado]&quot;;.
         /// </summary>
         internal static string txtInfo {
             get {

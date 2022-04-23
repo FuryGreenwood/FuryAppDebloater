@@ -161,7 +161,7 @@ y Ts-Pytham</value>
 
 Un programa para desinstalar Apps en dispositivos Android
 
-Asegúrese de tener activada la depuración por USB, si no lo tiene active las Opciones 
+Asegúrese de tener activada la depuración por USB, si no lo está, active las Opciones 
 de desarrollador (esto varía dependiendo de su dispositivo).
 
 Conecte su dispositivo al PC por medio de USB
@@ -173,7 +173,7 @@ Una vez que aparezca la consola con su dispositivo, presione Enter, copie y pegu
 pm uninstall -k --user 0 'nombre del paquete'
 
 
-En ‘nombre del paquete' reemplace por el nombre del paquete de la App
+En ‘nombre del paquete' reemplacelo por el nombre del paquete de la App
 si quiere saber más sobre el nombre del paquete (package), instale en 
 su celular la aplicación "App Info" y busque la aplicación a desinstalar
 
@@ -185,6 +185,13 @@ Si desea reinstalar la aplicación use el comando:
 
 
 cmd package install-existing 'nombre del paquete'
+
+
+Si desea conocer el listado de todas las Apps instaladas en el dispositivo 
+use el comando:
+
+
+pm list packages
 
 
 Tenga cuidado al desinstalar aplicaciones del sistema que podrían dejar al dispositivo inutilizable, utilícelo bajo su propio riesgo.</value>
