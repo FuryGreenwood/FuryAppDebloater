@@ -1,5 +1,5 @@
 @echo off
-title Fury App Debloater
+title Fury App Debloater Minimal Version v1.2
 cd "ADB"
 
 adb devices

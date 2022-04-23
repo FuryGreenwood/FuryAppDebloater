@@ -1,5 +1,5 @@
 @echo off
-title Fury App Debloater - Advanced Mode
+title Fury App Debloater Minimal Version v1.2 - Advanced Mode
 cd "ADB"
 cmd.exe
 
