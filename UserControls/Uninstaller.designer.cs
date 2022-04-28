@@ -33,7 +33,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.cmdBtn = new System.Windows.Forms.Button();
             this.appBtn = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,12 +43,12 @@
             this.txtInfo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtInfo.Font = new System.Drawing.Font("Lucida Console", 9.75F);
             this.txtInfo.ForeColor = System.Drawing.Color.White;
-            this.txtInfo.Location = new System.Drawing.Point(0, 15);
+            this.txtInfo.Location = new System.Drawing.Point(0, 0);
             this.txtInfo.Multiline = true;
             this.txtInfo.Name = "txtInfo";
             this.txtInfo.ReadOnly = true;
             this.txtInfo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtInfo.Size = new System.Drawing.Size(724, 454);
+            this.txtInfo.Size = new System.Drawing.Size(724, 469);
             this.txtInfo.TabIndex = 2;
             this.txtInfo.Text = resources.GetString("txtInfo.Text");
             this.txtInfo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -97,21 +96,12 @@
             this.appBtn.UseVisualStyleBackColor = false;
             this.appBtn.Click += new System.EventHandler(this.appBtn_Click);
             // 
-            // panel1
-            // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(724, 15);
-            this.panel1.TabIndex = 5;
-            // 
             // Uninstaller
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.Controls.Add(this.txtInfo);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Name = "Uninstaller";
             this.Size = new System.Drawing.Size(724, 524);
@@ -128,6 +118,5 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button cmdBtn;
         private System.Windows.Forms.Button appBtn;
-        private System.Windows.Forms.Panel panel1;
     }
 }

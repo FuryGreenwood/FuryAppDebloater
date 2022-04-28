@@ -118,7 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="txtInfo.Text" xml:space="preserve">
-    <value>Bienvenido a Fury App Debloater
+    <value>
+Bienvenido a Fury App Debloater
 
 Un programa para desinstalar Apps en dispositivos Android
 

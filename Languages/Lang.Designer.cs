@@ -162,8 +162,8 @@ namespace FuryAppDebloater.Languages {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Special Thanks to: Ricaidito, AbrahamJLR
-        ///and Ts-Pytham.
+        ///   Busca una cadena traducida similar a Special thanks to: Ricaidito, AbrahamJLR, Ts-Pytham 
+        ///and AlexanderMz.
         /// </summary>
         internal static string thanksLbl {
             get {
@@ -172,7 +172,8 @@ namespace FuryAppDebloater.Languages {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Welcome to Fury App Debloater
+        ///   Busca una cadena traducida similar a 
+        ///Welcome to Fury App Debloater
         ///
         ///A program to uninstall Apps on Android devices
         ///
@@ -188,7 +189,7 @@ namespace FuryAppDebloater.Languages {
         ///pm uninstall -k --user 0 &apos;package name&apos;
         ///
         ///
-        ///In &apos;package name&apos; replace it with the name of the App packa [resto de la cadena truncado]&quot;;.
+        ///In &apos;package name&apos; replace it with the name of the App pac [resto de la cadena truncado]&quot;;.
         /// </summary>
         internal static string txtInfo {
             get {

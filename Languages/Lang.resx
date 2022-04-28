@@ -153,11 +153,12 @@ If you want to use the full version of Android SDK Platform-Tools, click the but
     <value>Advanced Mode</value>
   </data>
   <data name="thanksLbl" xml:space="preserve">
-    <value>Special Thanks to: Ricaidito, AbrahamJLR
-and Ts-Pytham</value>
+    <value>Special thanks to: Ricaidito, AbrahamJLR, Ts-Pytham 
+and AlexanderMz</value>
   </data>
   <data name="txtInfo" xml:space="preserve">
-    <value>Welcome to Fury App Debloater
+    <value>
+Welcome to Fury App Debloater
 
 A program to uninstall Apps on Android devices
 

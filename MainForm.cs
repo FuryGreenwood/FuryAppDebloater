@@ -14,6 +14,7 @@ namespace FuryAppDebloater
     {
         private IconButton currentBtn;
         private Panel leftBorderBtn;
+        private string _currentButton, _lastActive;
 
         //Custom Font (Aldo the Apache)
         [DllImport("gdi32.DLL")]
@@ -39,6 +40,7 @@ namespace FuryAppDebloater
             lblTitle2.Font = new Font(font_AldotheApache, 16, FontStyle.Regular);
             lblVer.Font = new Font(font_AldotheApache, 16, FontStyle.Regular);
             LoadLanguage();
+            btnMain.PerformClick();
         }
         public MainForm()
         {
@@ -46,10 +48,6 @@ namespace FuryAppDebloater
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(5, 76);
             pnlMenu.Controls.Add(leftBorderBtn);
-            //btnMain.Enabled = false;
-            ActiveButton(btnMain, RGBColors.color1);
-            Uninstaller unis = new Uninstaller();
-            addUserControl(unis);
         }
         private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
         {
@@ -79,6 +77,8 @@ namespace FuryAppDebloater
                 currentBtn.BackColor = Color.FromArgb(23, 158, 230);
                 currentBtn.ForeColor = color;
                 currentBtn.IconColor = color;
+                currentBtn.Cursor = Cursors.Arrow;
+
                 //LeftBorder
                 leftBorderBtn.BackColor = color;
                 leftBorderBtn.Location = new Point(0, currentBtn.Location.Y);
@@ -93,6 +93,7 @@ namespace FuryAppDebloater
                 currentBtn.BackColor = Color.FromArgb(20, 20, 20);
                 currentBtn.ForeColor = Color.White;
                 currentBtn.IconColor = Color.White;
+                currentBtn.Cursor = Cursors.Hand;
             }
         }
 
@@ -115,30 +116,36 @@ namespace FuryAppDebloater
         //Buttons Functions
         private void btnMain_Click(object sender, EventArgs e)
         {
-            /*btnMain.Enabled = false;
-            btnAdv.Enabled = true;
-            btnOptions.Enabled = true;*/
-            ActiveButton(sender, RGBColors.color1);
-            Uninstaller unis = new Uninstaller();
-            addUserControl(unis);
+            _currentButton = sender.ToString();
+            if (_currentButton != _lastActive)
+            {
+                _lastActive = _currentButton;
+                ActiveButton(sender, RGBColors.color1);
+                Uninstaller unis = new Uninstaller();
+                addUserControl(unis);
+            }
         }
         private void btnAdvanced_Click(object sender, EventArgs e)
         {
-            /*btnMain.Enabled = true;
-            btnAdv.Enabled = false;
-            btnOptions.Enabled = true;*/
-            ActiveButton(sender, RGBColors.color2);
-            Advanced adv = new Advanced();
-            addUserControl(adv);
+            _currentButton = sender.ToString();
+            if (_currentButton != _lastActive)
+            {
+                _lastActive = _currentButton;
+                ActiveButton(sender, RGBColors.color2);
+                Advanced adv = new Advanced();
+                addUserControl(adv);
+            }
         }
         private void btnOptions_Click(object sender, EventArgs e)
         {
-            /*btnMain.Enabled = true;
-            btnAdv.Enabled = true;
-            btnOptions.Enabled = false;*/
-            ActiveButton(sender, RGBColors.color2);
-            Options op = new Options(this); //Lang Fixed
-            addUserControl(op);
+            _currentButton = sender.ToString();
+            if (_currentButton != _lastActive)
+            {
+                _lastActive = _currentButton;
+                ActiveButton(sender, RGBColors.color2);
+                Options op = new Options(this); //Lang Fixed
+                addUserControl(op);
+            }
         }
 
         public void LoadLanguage()

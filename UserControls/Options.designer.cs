@@ -38,11 +38,11 @@
             this.lblLang = new System.Windows.Forms.Label();
             this.langBox = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblAbout = new System.Windows.Forms.Label();
-            this.boxLogo = new System.Windows.Forms.PictureBox();
-            this.lblCopy = new System.Windows.Forms.Label();
-            this.lblRights = new System.Windows.Forms.Label();
             this.thanksLbl = new System.Windows.Forms.Label();
+            this.lblRights = new System.Windows.Forms.Label();
+            this.lblCopy = new System.Windows.Forms.Label();
+            this.boxLogo = new System.Windows.Forms.PictureBox();
+            this.lblAbout = new System.Windows.Forms.Label();
             this.discordBtn = new FontAwesome.Sharp.IconButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.boxLogo)).BeginInit();
@@ -201,26 +201,29 @@
             this.panel1.Size = new System.Drawing.Size(392, 524);
             this.panel1.TabIndex = 30;
             // 
-            // lblAbout
+            // thanksLbl
             // 
-            this.lblAbout.AutoSize = true;
-            this.lblAbout.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
-            this.lblAbout.ForeColor = System.Drawing.Color.White;
-            this.lblAbout.Location = new System.Drawing.Point(7, 23);
-            this.lblAbout.Name = "lblAbout";
-            this.lblAbout.Size = new System.Drawing.Size(96, 25);
-            this.lblAbout.TabIndex = 21;
-            this.lblAbout.Text = "Acerca de";
+            this.thanksLbl.AutoSize = true;
+            this.thanksLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
+            this.thanksLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(70)))), ((int)(((byte)(75)))));
+            this.thanksLbl.Location = new System.Drawing.Point(8, 435);
+            this.thanksLbl.Name = "thanksLbl";
+            this.thanksLbl.Size = new System.Drawing.Size(376, 40);
+            this.thanksLbl.TabIndex = 29;
+            this.thanksLbl.Text = "Agradecimientos especiales a: Ricaidito, AbrahamJLR, \r\nTs-Pytham y AlexanderMz";
+            this.thanksLbl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // boxLogo
+            // lblRights
             // 
-            this.boxLogo.Image = global::FuryAppDebloater.Properties.Resources.fury;
-            this.boxLogo.Location = new System.Drawing.Point(25, 51);
-            this.boxLogo.Name = "boxLogo";
-            this.boxLogo.Size = new System.Drawing.Size(335, 270);
-            this.boxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.boxLogo.TabIndex = 27;
-            this.boxLogo.TabStop = false;
+            this.lblRights.AutoSize = true;
+            this.lblRights.Font = new System.Drawing.Font("Aldo the Apache", 15.75F);
+            this.lblRights.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(230)))), ((int)(((byte)(158)))));
+            this.lblRights.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lblRights.Location = new System.Drawing.Point(7, 324);
+            this.lblRights.Name = "lblRights";
+            this.lblRights.Size = new System.Drawing.Size(205, 27);
+            this.lblRights.TabIndex = 23;
+            this.lblRights.Text = "FURY GREENWOOD - 2022";
             // 
             // lblCopy
             // 
@@ -236,29 +239,26 @@
     "bution License.\"";
             this.lblCopy.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblRights
+            // boxLogo
             // 
-            this.lblRights.AutoSize = true;
-            this.lblRights.Font = new System.Drawing.Font("Aldo the Apache", 15.75F);
-            this.lblRights.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(230)))), ((int)(((byte)(158)))));
-            this.lblRights.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblRights.Location = new System.Drawing.Point(7, 324);
-            this.lblRights.Name = "lblRights";
-            this.lblRights.Size = new System.Drawing.Size(205, 27);
-            this.lblRights.TabIndex = 23;
-            this.lblRights.Text = "FURY GREENWOOD - 2022";
+            this.boxLogo.Image = global::FuryAppDebloater.Properties.Resources.fury;
+            this.boxLogo.Location = new System.Drawing.Point(25, 51);
+            this.boxLogo.Name = "boxLogo";
+            this.boxLogo.Size = new System.Drawing.Size(335, 270);
+            this.boxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.boxLogo.TabIndex = 27;
+            this.boxLogo.TabStop = false;
             // 
-            // thanksLbl
+            // lblAbout
             // 
-            this.thanksLbl.AutoSize = true;
-            this.thanksLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
-            this.thanksLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(70)))), ((int)(((byte)(75)))));
-            this.thanksLbl.Location = new System.Drawing.Point(8, 435);
-            this.thanksLbl.Name = "thanksLbl";
-            this.thanksLbl.Size = new System.Drawing.Size(368, 40);
-            this.thanksLbl.TabIndex = 29;
-            this.thanksLbl.Text = "Agradecimientos especiales a: Ricaidito, AbrahamJLR\r\ny Ts-Pytham";
-            this.thanksLbl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblAbout.AutoSize = true;
+            this.lblAbout.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lblAbout.ForeColor = System.Drawing.Color.White;
+            this.lblAbout.Location = new System.Drawing.Point(7, 23);
+            this.lblAbout.Name = "lblAbout";
+            this.lblAbout.Size = new System.Drawing.Size(96, 25);
+            this.lblAbout.TabIndex = 21;
+            this.lblAbout.Text = "Acerca de";
             // 
             // discordBtn
             // 
