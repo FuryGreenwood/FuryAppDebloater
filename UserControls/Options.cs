@@ -20,8 +20,8 @@ namespace FuryAppDebloater
         private void CustomFont()
         {
             PrivateFontCollection new_Font = new PrivateFontCollection();
-            int long_font = Properties.Resources.AldotheApache.Length;
-            byte[] fontdata = Properties.Resources.AldotheApache;
+            int long_font = Resources.AldotheApache.Length;
+            byte[] fontdata = Resources.AldotheApache;
             IntPtr replace = Marshal.AllocCoTaskMem(long_font);
             Marshal.Copy(fontdata, 0, replace, long_font);
             uint cFonts = 0;

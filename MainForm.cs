@@ -23,8 +23,8 @@ namespace FuryAppDebloater
         private void CustomFont()
         {
             PrivateFontCollection new_Font = new PrivateFontCollection();
-            int long_font = Properties.Resources.AldotheApache.Length;
-            byte[] fontdata = Properties.Resources.AldotheApache;
+            int long_font = Resources.AldotheApache.Length;
+            byte[] fontdata = Resources.AldotheApache;
             IntPtr replace = Marshal.AllocCoTaskMem(long_font);
             Marshal.Copy(fontdata, 0, replace, long_font);
             uint cFonts = 0;
@@ -101,7 +101,7 @@ namespace FuryAppDebloater
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
-        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+        private extern static void SendMessage(IntPtr hWnd, int wMsg, int wParam, int lParam);
         private void pnlTitle_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
