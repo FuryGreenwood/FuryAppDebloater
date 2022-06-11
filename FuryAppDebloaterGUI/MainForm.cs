@@ -78,7 +78,6 @@ namespace FuryAppDebloater
                 currentBtn.ForeColor = color;
                 currentBtn.IconColor = color;
                 currentBtn.Cursor = Cursors.Arrow;
-
                 //LeftBorder
                 leftBorderBtn.BackColor = color;
                 leftBorderBtn.Location = new Point(0, currentBtn.Location.Y);

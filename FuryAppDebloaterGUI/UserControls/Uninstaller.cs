@@ -21,8 +21,7 @@ namespace FuryAppDebloater
 
         private void cmdBtn_Click(object sender, EventArgs e)
         {
-            //DLLS
-            try
+            try //DLLS
             {
                 string directory = Directory.GetCurrentDirectory() + @"/ADB";
                 if (!Directory.Exists(directory))
@@ -57,8 +56,7 @@ namespace FuryAppDebloater
             }
             catch { }
 
-            //EXEs
-            try
+            try //EXEs
             {
                 string directory = Directory.GetCurrentDirectory() + @"/ADB";
                 if (!Directory.Exists(directory))
@@ -94,8 +92,7 @@ namespace FuryAppDebloater
             }
             catch { }
 
-            //UnisBAT
-            try
+            try //UnisBAT
             {
                 string directory = Directory.GetCurrentDirectory() + @"/ADB";
                 if (!Directory.Exists(directory))
