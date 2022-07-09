@@ -217,7 +217,7 @@
             // 
             this.lblRights.AutoSize = true;
             this.lblRights.Font = new System.Drawing.Font("Aldo the Apache", 15.75F);
-            this.lblRights.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(230)))), ((int)(((byte)(158)))));
+            this.lblRights.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(230)))), ((int)(((byte)(160)))));
             this.lblRights.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lblRights.Location = new System.Drawing.Point(7, 324);
             this.lblRights.Name = "lblRights";
