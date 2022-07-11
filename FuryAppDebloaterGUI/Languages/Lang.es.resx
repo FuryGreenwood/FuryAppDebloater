@@ -203,4 +203,7 @@ Tenga cuidado al desinstalar aplicaciones del sistema que podrían dejar al disp
   <data name="updateLbl" xml:space="preserve">
     <value>Actualizaciones</value>
   </data>
+  <data name="lblVer" xml:space="preserve">
+    <value>Versión: </value>
+  </data>
 </root>

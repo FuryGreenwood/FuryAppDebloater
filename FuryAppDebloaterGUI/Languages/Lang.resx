@@ -204,4 +204,7 @@ unusable, use at your own risk.</value>
   <data name="updateLbl" xml:space="preserve">
     <value>Updates</value>
   </data>
+  <data name="lblVer" xml:space="preserve">
+    <value>Version: </value>
+  </data>
 </root>

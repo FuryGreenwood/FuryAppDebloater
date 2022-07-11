@@ -2,6 +2,7 @@
 using FuryAppDebloater.Languages;
 using FuryAppDebloater.Properties;
 using System;
+using System.Globalization;
 using System.Drawing;
 using System.Drawing.Text;
 using System.Runtime.InteropServices;
@@ -38,7 +39,6 @@ namespace FuryAppDebloater
             CustomFont();
             lblTitle1.Font = new Font(font_AldotheApache, 16, FontStyle.Regular);
             lblTitle2.Font = new Font(font_AldotheApache, 16, FontStyle.Regular);
-            lblVer.Font = new Font(font_AldotheApache, 16, FontStyle.Regular);
             LoadLanguage();
             btnMain.PerformClick();
         }
@@ -149,10 +149,11 @@ namespace FuryAppDebloater
 
         public void LoadLanguage()
         {
-            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(Settings.Default.Language);
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(Settings.Default.Language);
             btnMain.Text = Lang.btnMain;
             btnAdv.Text = Lang.btnAdv;
             btnOptions.Text = Lang.btnOptions;
+            lblVer.Text = Lang.lblVer + "1.6.5";
         }
     }
 }

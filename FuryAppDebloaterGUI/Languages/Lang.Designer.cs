@@ -162,6 +162,15 @@ namespace FuryAppDebloater.Languages {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Version: .
+        /// </summary>
+        internal static string lblVer {
+            get {
+                return ResourceManager.GetString("lblVer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Special thanks to: Ricaidito, AbrahamJLR, Ts-Pytham 
         ///and AlexanderMz.
         /// </summary>

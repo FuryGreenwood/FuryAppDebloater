@@ -1,4 +1,5 @@
-﻿using FuryAppDebloater.Languages;
+﻿using System.Globalization;
+using FuryAppDebloater.Languages;
 using FuryAppDebloater.Properties;
 using System;
 using System.Diagnostics;
@@ -119,7 +120,7 @@ namespace FuryAppDebloater
 
         public void LoadLanguage()
         {
-            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(Settings.Default.Language);
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(Settings.Default.Language);
             txtInfo.Text = Lang.txtInfo;
             appBtn.Text = Lang.appBtn;
         }

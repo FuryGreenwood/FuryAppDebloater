@@ -148,22 +148,22 @@
     <value>True</value>
   </data>
   <data name="lblVer.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Aldo the Apache, 15.75pt</value>
+    <value>Segoe UI, 12pt</value>
   </data>
   <data name="lblVer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="lblVer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>121, 36</value>
+    <value>122, 36</value>
   </data>
   <data name="lblVer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 27</value>
+    <value>102, 21</value>
   </data>
   <data name="lblVer.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="lblVer.Text" xml:space="preserve">
-    <value>v1.6.5</value>
+    <value>Version: 1.6.5</value>
   </data>
   <data name="&gt;&gt;lblVer.Name" xml:space="preserve">
     <value>lblVer</value>
