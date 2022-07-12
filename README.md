@@ -7,11 +7,11 @@ Uninstall almost any app from your Android device without Root! | ¡Desinstala c
 This is my first serious program that was born out of a need to uninstall pre-installed apps from carriers and Google to lighten the device's storage.
 # ENGLISH
 ## ✏ Summary:
-- It’s mainly focused to uninstall annoying pre-installed apps from Android devices.
-- You can uninstall almost any system application.
-- You do not need to be root user.
+- It’s mainly focused to uninstall annoying pre-installed apps from Android devices
+- You can uninstall almost any system application
+- You do not need to be root user
 - You can use it with a graphical interface and in a command console
-- All the instructions for use can be found within the program and in its Minimal version.
+- All the instructions for use can be found within the program and in its Minimal version
 ## 📱 Compatibility:
 - NET Framework 4.8
 - It’s compatible with ALL Android devices, regardless of their version.
@@ -22,11 +22,11 @@ Android Platform Tools
 
 # ESPAÑOL
 ## ✏ Resumen:
-- Esta enfocado principalmente para desinstalar las molestas apps preinstaladas de los dispositivos Android.
-- Puedes desinstalar casi cualquier aplicación del sistema.
-- No necesitas ser usuario Root.
+- Esta enfocado principalmente para desinstalar las molestas apps preinstaladas de los dispositivos Android
+- Puedes desinstalar casi cualquier aplicación del sistema
+- No necesitas ser usuario Root
 - Puedes utilizarlo con una interfaz gráfica y en consola de comandos
-- Todas las instrucciones de uso las encuentras dentro del programa y en su versión Minimal.
+- Todas las instrucciones de uso las encuentras dentro del programa y en su versión Minimal
 ## 📱 Compatibilidad:
 - NET Framework 4.8
 - Es compatible con TODOS los dispositivos Android habidos y por haber sin importar su versión.
